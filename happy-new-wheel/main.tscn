@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://d0n2wq1fux7lr"]
+
+[ext_resource type="Texture2D" uid="uid://cnmsifxye2dko" path="res://background.jpg" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://bncjtqja52xxs" path="res://baraban.svg" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://dp0m17ymv6hl0" path="res://baraban.gd" id="3_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://m5rti3avkiwb" path="res://стрелка.svg" id="4_lquwl"]
+
+[node name="Main" type="Node2D"]
+
+[node name="background" type="TextureRect" parent="."]
+offset_right = 1344.0
+offset_bottom = 768.0
+scale = Vector2(0.8571528, 0.843789)
+texture = ExtResource("1_ig7tw")
+
+[node name="Baraban" type="Sprite2D" parent="."]
+position = Vector2(886, 332.00003)
+scale = Vector2(0.62594634, 0.62594634)
+texture = ExtResource("2_0xm2m")
+script = ExtResource("3_1bvp3")
+
+[node name="Стрелка" type="Sprite2D" parent="."]
+position = Vector2(891.00006, 170)
+scale = Vector2(0.26940316, 0.26940316)
+texture = ExtResource("4_lquwl")
